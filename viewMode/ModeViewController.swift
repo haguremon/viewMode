@@ -21,9 +21,9 @@ class ModeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        switch mode { //Modeのケースがそれぞれの時に表示を変える
+        switch mode { //Modeのケースがそれぞれの時に表示を変える//Mode型
         case .Mode1:
-            self.view.backgroundColor = UIColor.blue
+            view.backgroundColor = UIColor.blue
         
         case .Mode2:
             view.backgroundColor = UIColor.green
